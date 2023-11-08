@@ -1,0 +1,7 @@
+2023-11-08 14:55:08,384 - __main__ - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "app.py", line 48, in main
+    first_name = extract_first_name(full_name)
+  File "app.py", line 26, in extract_first_name
+    name_parts = full_name.split()
+AttributeError: 'int' object has no attribute 'split'

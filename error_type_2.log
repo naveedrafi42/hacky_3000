@@ -1,0 +1,64 @@
+2023-11-08 15:07:05,398 - __main__ - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "app.py", line 50, in main
+    st.write(f"Hello, {name}!")
+NameError: name 'name' is not defined
+2023-11-08 15:20:43,014 - __main__ - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "app.py", line 38, in main
+    st.write(f"Hello, {name}!")
+NameError: name 'name' is not defined
+2023-11-08 15:20:43,014 - __main__ - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "app.py", line 38, in main
+    st.write(f"Hello, {name}!")
+NameError: name 'name' is not defined
+2023-11-08 15:21:34,751 - __main__ - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "app.py", line 36, in main
+    first_name = extract_first_name(full_name)
+  File "/Users/naveedrafi/PycharmProjects/hacky_3000/utils.py", line 3, in extract_first_name
+    name_parts = full_name.split()
+AttributeError: 'int' object has no attribute 'split'
+2023-11-08 15:21:34,751 - __main__ - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "app.py", line 36, in main
+    first_name = extract_first_name(full_name)
+  File "/Users/naveedrafi/PycharmProjects/hacky_3000/utils.py", line 3, in extract_first_name
+    name_parts = full_name.split()
+AttributeError: 'int' object has no attribute 'split'
+2023-11-08 15:21:34,751 - __main__ - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "app.py", line 36, in main
+    first_name = extract_first_name(full_name)
+  File "/Users/naveedrafi/PycharmProjects/hacky_3000/utils.py", line 3, in extract_first_name
+    name_parts = full_name.split()
+AttributeError: 'int' object has no attribute 'split'
+2023-11-08 15:21:34,751 - __main__ - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "app.py", line 36, in main
+    first_name = extract_first_name(full_name)
+  File "/Users/naveedrafi/PycharmProjects/hacky_3000/utils.py", line 3, in extract_first_name
+    name_parts = full_name.split()
+AttributeError: 'int' object has no attribute 'split'
+2023-11-08 15:21:34,751 - __main__ - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "app.py", line 36, in main
+    first_name = extract_first_name(full_name)
+  File "/Users/naveedrafi/PycharmProjects/hacky_3000/utils.py", line 3, in extract_first_name
+    name_parts = full_name.split()
+AttributeError: 'int' object has no attribute 'split'
+2023-11-08 15:21:34,751 - __main__ - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "app.py", line 36, in main
+    first_name = extract_first_name(full_name)
+  File "/Users/naveedrafi/PycharmProjects/hacky_3000/utils.py", line 3, in extract_first_name
+    name_parts = full_name.split()
+AttributeError: 'int' object has no attribute 'split'
+2023-11-08 15:21:34,751 - __main__ - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "app.py", line 36, in main
+    first_name = extract_first_name(full_name)
+  File "/Users/naveedrafi/PycharmProjects/hacky_3000/utils.py", line 3, in extract_first_name
+    name_parts = full_name.split()
+AttributeError: 'int' object has no attribute 'split'
