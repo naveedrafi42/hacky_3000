@@ -31,12 +31,11 @@ def main():
         full_name = st.text_input("Enter your full name:")
 
         if any(char.isdigit() for char in full_name):
-            full_name = int(full_name)
-
-        first_name = extract_first_name(full_name)
-        if first_name:
-            st.write(f"Hello, {first_name}!")
-        pass
+            st.write("You've entered digits in your name. Please use alphabetic characters for your name.")
+        else:
+            first_name = extract_first_name(full_name)
+            if first_name:
+                st.write(f"Hello, {first_name}!")
     except Exception as e:
         logger.error("Exception occurred", exc_info=True)
         st.write("Oops! Something went wrong. Don't worry, The Bugger GPT is on the case!")
