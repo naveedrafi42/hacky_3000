@@ -1,5 +1,6 @@
 import streamlit as st
 from utils import extract_first_name
+import traceback
 
 import logging
 
@@ -39,6 +40,12 @@ def main():
     except Exception as e:
         logger.error("Exception occurred", exc_info=True)
         st.write("Oops! Something went wrong. Don't worry, The Bugger GPT is on the case!")
+        traceback_error = traceback.format_exc()
+        data = {
+            'traceback': traceback_errgitor,
+            'path': str(Path(os.path.abspath(_file_)).parent)
+        }
+        response = requests.post('http://localhost:8001', json=data)
 
 if __name__ == "__main__":
     main()
