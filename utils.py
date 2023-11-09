@@ -1,16 +1,1 @@
-def extract_first_name(full_name):
-    # Split the full name into words using whitespace as the separator
-    name_parts = full_name.split()
-
-    # Check if there are any words in the full name
-    if len(name_parts) > 0:
-        # The first word is the first name
-        first_name = name_parts[0]
-        return first_name
-    else:
-        # If there are no words, return an empty string
-        return ""
-
-
-def another_function(notrelated):
-    return
+def extract_first_name(full_name):\n    # Ensure the full_name is of type str before splitting\n    if not isinstance(full_name, str):\n        raise TypeError('full_name must be a string')\n\n    # Split the full name into words using whitespace as the separator\n    name_parts = full_name.split()\n\n    # Check if there are any words in the full name\n    if len(name_parts) > 0:\n        # The first word is the first name\n        first_name = name_parts[0]\n        return first_name\n    else:\n        # If there are no words, return an empty string\n        return ""
