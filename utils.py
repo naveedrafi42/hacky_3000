@@ -1,4 +1,6 @@
 def extract_first_name(full_name):
+    # Ensure the full name is a string before splitting
+    full_name = str(full_name)
     # Split the full name into words using whitespace as the separator
     name_parts = full_name.split()
 
@@ -8,7 +10,7 @@ def extract_first_name(full_name):
         first_name = name_parts[0]
         return first_name
     else:
-        # If there are no words, return an empty string
+        # If there are no words return an empty string
         return ""
 
 
